@@ -1,0 +1,80 @@
+08:35:13,131 DEBUG devpinoyLogger:43 - loading config property file
+08:35:13,134 DEBUG devpinoyLogger:49 - loading object property file
+08:35:13,932 DEBUG devpinoyLogger:54 - Loading Excel file
+08:35:17,771 DEBUG InternalLoggerFactory:89 - Using Log4J as the default logging framework
+08:35:17,782 DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+08:35:17,782 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+08:35:17,792 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2a2da905
+08:35:17,830 DEBUG PlatformDependent0:496 - -Dio.netty.noUnsafe: false
+08:35:17,831 DEBUG PlatformDependent0:1000 - Java version: 11
+08:35:17,834 DEBUG PlatformDependent0:137 - sun.misc.Unsafe.theUnsafe: available
+08:35:17,836 DEBUG PlatformDependent0:161 - sun.misc.Unsafe.copyMemory: available
+08:35:17,837 DEBUG PlatformDependent0:193 - sun.misc.Unsafe.storeFence: available
+08:35:17,840 DEBUG PlatformDependent0:236 - java.nio.Buffer.address: available
+08:35:17,842 DEBUG PlatformDependent0:320 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+08:35:17,844 DEBUG PlatformDependent0:385 - java.nio.Bits.unaligned: available, true
+08:35:17,847 DEBUG PlatformDependent0:452 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @10289886
+08:35:17,850 DEBUG PlatformDependent0:482 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+08:35:17,850 DEBUG PlatformDependent:1159 - sun.misc.Unsafe: available
+08:35:17,878 DEBUG PlatformDependent:1270 - maxDirectMemory: 1977614336 bytes (maybe)
+08:35:17,879 DEBUG PlatformDependent:1289 - -Dio.netty.tmpdir: C:\Users\hp\AppData\Local\Temp (java.io.tmpdir)
+08:35:17,880 DEBUG PlatformDependent:1368 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+08:35:17,881 DEBUG PlatformDependent:1119 - Platform: Windows
+08:35:17,883 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+08:35:17,884 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+08:35:17,885 DEBUG CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+08:35:17,886 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+08:35:17,899 DEBUG PlatformDependent:1010 - org.jctools-core.MpscChunkedArrayQueue: available
+08:35:17,944 DEBUG InternalThreadLocalMap:100 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+08:35:17,945 DEBUG InternalThreadLocalMap:101 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+08:35:18,231 DEBUG JdkSslContext:83 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+08:35:18,232 DEBUG JdkSslContext:84 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+08:35:18,253 DEBUG GlobalEventExecutor:53 - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+08:35:18,273 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 24
+08:35:18,288 DEBUG NioEventLoop:110 - -Dio.netty.noKeySetOptimization: false
+08:35:18,289 DEBUG NioEventLoop:111 - -Dio.netty.selectorAutoRebuildThreshold: 512
+08:35:18,371 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 24
+08:35:18,371 DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 24
+08:35:18,371 DEBUG PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
+08:35:18,372 DEBUG PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
+08:35:18,372 DEBUG PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
+08:35:18,372 DEBUG PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+08:35:18,372 DEBUG PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+08:35:18,373 DEBUG PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+08:35:18,373 DEBUG PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+08:35:18,373 DEBUG PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+08:35:18,374 DEBUG PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+08:35:18,374 DEBUG PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+08:35:18,394 DEBUG ByteBufUtil:88 - -Dio.netty.allocator.type: pooled
+08:35:18,394 DEBUG ByteBufUtil:97 - -Dio.netty.threadLocalDirectBufferSize: 0
+08:35:18,394 DEBUG ByteBufUtil:100 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+08:35:18,868 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 17280 (auto-detected)
+08:35:18,872 DEBUG NetUtil:148 - -Djava.net.preferIPv4Stack: false
+08:35:18,873 DEBUG NetUtil:149 - -Djava.net.preferIPv6Addresses: false
+08:35:19,062 DEBUG NetUtilInitializations:145 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+08:35:19,065 DEBUG NetUtil:206 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+08:35:19,083 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: 64:bc:58:ff:fe:cd:03:bb (auto-detected)
+08:35:19,174 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+08:35:19,176 DEBUG AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+08:35:19,177 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4d566012
+08:35:19,240 DEBUG Recycler:96 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+08:35:19,241 DEBUG Recycler:97 - -Dio.netty.recycler.ratio: 8
+08:35:19,241 DEBUG Recycler:98 - -Dio.netty.recycler.chunkSize: 32
+08:35:19,242 DEBUG Recycler:99 - -Dio.netty.recycler.blocking: false
+08:35:19,242 DEBUG Recycler:100 - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+08:35:24,118 DEBUG Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+08:35:33,591 DEBUG devpinoyLogger:36 - Click on the Sign in button
+08:35:40,715 DEBUG devpinoyLogger:42 - Enter the user name
+08:35:42,870 DEBUG devpinoyLogger:47 - Click on the next button
+08:36:23,324 DEBUG devpinoyLogger:52 - Enter the user password
+08:36:25,424 DEBUG devpinoyLogger:57 - Back to Home page
+08:36:30,635 DEBUG devpinoyLogger:62 - Google search box text field xpath
+08:36:30,766 DEBUG devpinoyLogger:66 - Google search button xpath
+08:36:40,432 DEBUG devpinoyLogger:70 - Back to Home page
+08:36:47,933 DEBUG devpinoyLogger:75 - I am feeeling lucky Xpath
+08:37:15,528 DEBUG devpinoyLogger:80 - feeeling lucky page down
+08:37:17,593 DEBUG devpinoyLogger:85 - feeeling lucky page up
+08:37:19,629 DEBUG devpinoyLogger:90 - Back to Home page
+08:37:23,423 DEBUG ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0x080d4aed16add7fc
+08:37:26,671 DEBUG devpinoyLogger:86 - Zipping screenshot folder
+08:37:26,922 DEBUG devpinoyLogger:89 - zip report sucessfully

@@ -1,0 +1,13 @@
+  <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Learning - Tsys">
+
+
+<test name="Login test">
+    <classes>
+        <class name="com.practice.dd_tests.Google_Webpage_Launched_Test" ></class>  
+    </classes>
+</test>
+
+
+
+</suite>
