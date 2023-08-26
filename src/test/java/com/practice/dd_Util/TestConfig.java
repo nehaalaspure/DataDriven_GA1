@@ -9,7 +9,7 @@ public class TestConfig{
 	public static String server="smtp.gmail.com";
 	public static String from = "nehaalaspure@gmail.com";
 	public static String password = "fzpyfwpqliqczgbu";
-	public static String[] to ={"erniteshtiwari96@gmail.com"};//"vaishalibakale@gmail.com"
+	public static String[] to ={"nehalaspure@gmail.coms"};//"vaishalibakale@gmail.com"
 	public static String subject = "Test Report";
 	
 	public static String messageBody ="TestMessage";
